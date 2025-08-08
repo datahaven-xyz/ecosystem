@@ -1,5 +1,5 @@
 import { glob } from "glob";
-import { validateProject } from "../schemas/project";
+import { validateProject } from "../../schemas/project";
 
 async function main() {
   console.log(
