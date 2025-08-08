@@ -1,0 +1,19 @@
+{
+  "name": "ecosystem",
+  "version": "1.0.0",
+  "description": "DataHaven Ecosystem",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datahaven-xyz/ecosystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://datahaven.xyz/",
+  "dependencies": {
+    "glob": "^11.0.3",
+    "zod": "^4.0.15"
+  }
+}

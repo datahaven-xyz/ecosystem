@@ -1,0 +1,27 @@
+{
+  "id": "example-project",
+  "slug": "example-project",
+  "name": "example-project",
+  "category": "dex",
+  "status": "active",
+  "featured": true,
+  "logo": {
+    "small": {
+      "fileName": "example-logo-small.png",
+      "width": 36,
+      "height": 36,
+      "mimeType": "image/jpeg"
+    }
+  },
+  "shortDescription": "The leading DEX and DeFi gateway on Moonbeam",
+  "description": "example-project is one of the first automated market-making (AMM), decentralized exchange (DEX) for the Moonbeam parachain network. The unique value proposition of example-project is that we're committed in establishing a strong foundation with our native token, STELLA, as a governance token, diverse farms, a built in bridge and user-centered service. \r\n\r\nexample-project's main objective is to create a broader range of network effects to address the issues of liquidity in the DeFi space, instead of limiting ourselves to a single solution like many DEXs are doing now. This manifests itself in the diverse product suite of example-project that will be explained in more details. Our products are structured in such a way that facilitates decentralized governance of STELLA holders, while continuing to innovate on the collective foundations by design.",
+  "urls": {
+    "website": "https://example-project.com/",
+    "try": "https://example-project.com/",
+    "twitter": "https://twitter.com/example-project",
+    "medium": "https://example-project.medium.com/",
+    "telegram": "https://t.me/example-project",
+    "github": "https://github.com/example-project",
+    "discord": "https://discord.example-project.com"
+  }
+}
