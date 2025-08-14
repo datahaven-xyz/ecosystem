@@ -1,7 +1,7 @@
 {
   "name": "@datahaven/ecosystem",
   "version": "1.0.0",
-  "description": "DataHaven Ecosystem - Zod schemas and types",
+  "description": "DataHaven Ecosystem - Projects data, Zod schemas and types",
   "main": "index.ts",
   "types": "index.ts",
   "exports": {
