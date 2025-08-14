@@ -4,6 +4,8 @@
   "description": "DataHaven Ecosystem - Projects data, Zod schemas and types",
   "main": "index.ts",
   "types": "index.ts",
+  "type": "module",
+  "packageManager": "bun@1.0.3",
   "exports": {
     ".": {
       "types": "./index.ts",
@@ -27,7 +29,7 @@
   "homepage": "https://datahaven.xyz/",
   "dependencies": {
     "glob": "^11.0.3",
-    "zod": "^4.0.15"
+    "zod": "^4.0.17"
   },
   "keywords": [
     "typescript",

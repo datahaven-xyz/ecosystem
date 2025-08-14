@@ -102,7 +102,7 @@ const urlsSchema = z.object({
 
 const projectSchema = z
   .object({
-    id: idSchema,
+    // id: idSchema,
     slug: idSchema,
     name: z.string().min(2).max(100),
     featured: z.boolean().optional(),
