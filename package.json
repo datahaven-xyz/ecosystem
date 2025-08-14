@@ -1,7 +1,20 @@
 {
-  "name": "ecosystem",
+  "name": "@datahaven/ecosystem",
   "version": "1.0.0",
-  "description": "DataHaven Ecosystem",
+  "description": "DataHaven Ecosystem - Projects data, Zod schemas and types",
+  "main": "index.ts",
+  "types": "index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "import": "./index.ts",
+      "require": "./index.ts"
+    }
+  },
+  "files": [
+    "index.ts",
+    "schemas/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +28,12 @@
   "dependencies": {
     "glob": "^11.0.3",
     "zod": "^4.0.15"
-  }
+  },
+  "keywords": [
+    "typescript",
+    "zod",
+    "schemas",
+    "types",
+    "datahaven"
+  ]
 }

@@ -132,3 +132,5 @@ export function validateProject(project: unknown) {
 
   return result;
 }
+
+export type HavenGhEcosystemProject = z.infer<typeof projectSchema>;
