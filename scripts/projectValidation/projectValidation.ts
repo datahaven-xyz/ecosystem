@@ -20,17 +20,17 @@ async function main() {
       assert: { type: "json" },
     });
     console.log(
-      `Validating project ${project.id}. Progress: [${++counter}/${total}]`
+      `Validating project ${project.slug}. Progress: [${++counter}/${total}]`
     );
 
     const validationResult = validateProject(project);
 
     if (!validationResult.success) {
       console.error(
-        `Validation failed for project "${project.id}" with errors:`
+        `Validation failed for project "${project.slug}" with errors:`
       );
       console.error(validationResult.error);
-      throw new Error(`Project validation failed. Project ID: ${project.id}`);
+      throw new Error(`Project validation failed. Project ID: ${project.slug}`);
     }
   }
 }
